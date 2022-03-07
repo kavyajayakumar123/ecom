@@ -1,0 +1,25 @@
+*{
+    margin: o;
+    padding: o;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+#image{
+    width: 250px;
+    height: 10vh;
+}
+.header{
+    display: flex;
+}
+.navbar{
+    margin-left: 850px;
+    
+}
+#home , #profile ,#login{
+    margin-left: 140px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}    
