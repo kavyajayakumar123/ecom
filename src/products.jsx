@@ -1,31 +1,50 @@
 function Products() {
+    var products = [
+        {
+            image: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+            title: "Mens Casual Slim Fit",
+            price: "$ 15.99 "
+        },
+        {
+            image: "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+            title: "Solid Gold Petite Micropave",
+            price: "$ 168"
+        },
+        {
+            image: "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+            title: "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+            price: "$ 674"
+        }
+
+    ]
     return (
         <>
+            <div className="promain">
+                <div className="pro">
+                    <h2>Trending Now</h2>
 
-        <div className="pro">
-       <h2>Trending Now</h2>
-            
-        </div>
-            <div className="mainproducts">
-                <div className="mainpro">
-                    <a href="/card"> <img src="https://www.businessinsider.in/thumb/msid-81412331,width-640,resizemode-4/Master.jpg" /></a>
-                    <h5>Saree</h5>
-                    <h6>$ 499</h6>
                 </div>
+               
+                <div className="mainproducts">
+                    {
+                        products.map((e) => {
+                            return (
+                                <div className="begin">
+                                    <a id="proimage" href="/card"> <img src={e.image} /></a>
+                                   
+                                    <h2 id="protitle">{e.title}</h2>
+                                    <h3 id="proprice">{e.price}</h3>
+                                </div>
 
 
-                <div className="mainpro">
-                    <a href="/card"> <img src="https://assets.jabra.com/2/0/d/6/20d664c905b2e222dbe43e54260a9782d5d76bc3_Evolve2_ProductPage_Top_Black.png?auto=format,compress" /></a>
-                    <h5>Headphones</h5>
-                    <h6>$ 499</h6>
-                </div>
+                            )
+                        })
+                    }
 
-                <div className="mainpro">
-                    <a href="/card">  <img src="https://cdn.obag.filoblu.com/media/catalog/product/cache/25162cc576cf81151d28507649e6339b/o/b/obagdocmilk_L1.jpg" /></a>
-                    <h5>Bag</h5>
-                    <h6>$ 399</h6>
                 </div>
             </div>
+
+
         </>
     )
 }

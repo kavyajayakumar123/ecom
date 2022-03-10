@@ -12,14 +12,317 @@ body{
 }
 .header{
     display: flex;
+    background-image: linear-gradient(rgb(220, 220, 241), pink);
 }
 .navbar{
     margin-left: 850px;
+    padding-top: 40px;
     
 }
-#home , #profile ,#login{
+#home , #profilee ,#login{
     margin-left: 140px;
     text-decoration: none;
     color: black;
     font-size: 20px;
-}    
+}
+.container{
+        width: 100%;
+        height: 50vh;
+        background-image: url("https://t4.ftcdn.net/jpg/03/20/68/71/360_F_320687108_3UZ13l44Ob5cel208W7DaRnD5BR9DfY7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+.container h2{
+    font-size: 70px;
+    font-family: sans-serif;
+    margin-left: 350px;
+    color: rgb(248, 23, 90);
+    padding-top: 130px;
+    text-shadow: 5px 5px rgb(86, 87, 83); 
+}
+.container h3{
+    font-size: 40px;
+    margin-left: 600px;
+    text-shadow: 2px 2px 4px rgb(95, 90, 58);
+
+}
+.container p{
+    font-size: 24px;
+    margin-left: 450px;
+    color: rgb(2, 17, 65);
+
+
+}
+.container button{  
+    width: 170px;
+    height: 3vh;
+    font-size: 18px;
+    margin-left: 550px;
+    background-color: rgb(253, 96, 5);
+    transition: background 0.5s;
+}
+.container button:hover{
+    background-color: black;
+    color: white;
+}
+.containers{
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+}
+.left{
+    width: 150px;
+    height: 150px;
+    border-radius: 180%;
+    background-image: url("https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/7/Top_view.jpg");
+    background-size: cover;
+    background-position: center;
+}  
+.lastt{
+    width: 150px;
+    height: 150px;
+    background-image: url("https://5.imimg.com/data5/VK/GS/MY-10281336/mens-cotton-500x500.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 180%;
+}
+.right{
+    width: 150px;
+    height: 150px;
+    background-image: url("https://png.pngtree.com/png-clipart/20210309/original/pngtree-realistic-models-smartphone-mockup-collection-device-front-view-3d-mobile-phone-png-image_5857101.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 180%;
+}
+.last{
+    width: 150px;
+    height: 150px;
+    background-image: url("https://images.unsplash.com/photo-1593526270954-da9b60206ad4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhdGlvbmFyeXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+    border-radius: 180%;
+}
+.lastttt{
+    width: 150px;
+    height: 150px;
+    background-image: url("https://static.peachmode.com/media/images/product/96617/small/1618038373_1_IW-RS7427-F_-PEACHMODE.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 180%;
+}
+.left, .right, .last, .lastt, .lasttt, .lastttt, .lasttttt, .lasttttttt, .lastttttt, .lasttt:hover{
+    box-shadow: 3px 5px 18px rgb(29, 29, 63);
+}
+.lasttt{
+    width: 150px;
+    height: 150px;
+    background-image: url("https://static.peachmode.com/media/images/product/117618/small/1630494023_1_POSH-1040-WHITE-PEACHMODE.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 180%;
+}
+.lasttttt{
+    width: 150px;
+    height: 150px;
+    background-image: url("https://5.imimg.com/data5/AK/SO/MY-58564062/western-dresses-3a-solid-colour-slimfit-one-piece-dress-500x500.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 180%;
+}
+.lasttttttt{
+    width: 150px;
+    height: 150px;
+    background-image: url("https://media.istockphoto.com/photos/office-tools-picture-id490658849?k=20&m=490658849&s=612x612&w=0&h=LRn0TUryyb3cdHzUW1z_KbPtXHD2WlFh44bkyeE758E=");
+    background-size: cover;
+    background-position: center;
+    border-radius: 180%;
+}
+.lastttttt{
+    width: 150px;
+    height: 150px;
+    background-image: url("https://m.media-amazon.com/images/I/61FxsUbnavL._SL1500_.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 180%;
+}
+.names{
+    display: flex;
+   
+}
+h2{
+   margin-top: 130px;
+   
+   font-size: 22px;
+}
+.pro{
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: colomn;
+    display: flex;
+    justify-content: center;
+    border-left: 10px solid white;
+}
+.fea{
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: colomn;
+    display: flex;
+    justify-content: center;
+    border-left: 10px solid white;
+    
+}
+.late{
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: colomn;
+    display: flex;
+    justify-content: center;
+    border-left: 10px solid white;
+}
+
+.begin img{
+    width: 280px;
+    height: 30vh;
+    background-color: chartreuse;
+}
+#feaimage{
+    width: 280px;
+    height: 30vh;
+}
+#lateimage{
+    width: 280px;
+    height: 30vh;
+}
+.mainproducts{
+    display: flex;
+    width: 70%;
+    margin-left: 350px;
+}
+.mainfeature{
+    display: flex;
+    width: 70%;
+    margin-left: 350px;
+}
+.mainlatest{
+    display: flex;
+    width: 70%;
+    margin-left: 350px;
+}
+.begin{
+    display: flex;
+   padding-left: 140px;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transition: transform 0.5s;
+    
+}
+.feaproducts{
+    display: flex;
+   padding-left: 15px;
+    align-items: center;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transition: transform 0.5s;
+}
+.latestproducts{
+    display: flex;
+    padding-left: 15px;
+     align-items: center;
+     width: 80%;
+     flex-direction: row;
+     flex-wrap: wrap;
+     transition: transform 0.5s;
+}
+
+.pro h2{
+    font-size: 32px;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+}
+.fea h2{
+    font-size: 32px;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+}
+.late h2{
+    font-size: 32px;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+}
+#protitle{
+   margin-top: 0;
+}
+#featitle{
+    margin-top: 0;
+}
+#latetitle{
+    margin-top: 0;
+}
+#proprice{
+    margin-top:0;
+}
+#feaprice{
+    margin-top:0;
+}
+#lateprice{
+    margin-top:0;
+}
+.offer{
+    display: flex;
+    margin-top: 80px;
+  
+    background: radial-gradient(white, #e7b9e7);
+    width: 100%;
+    height: 50vh;
+
+}
+#offpic{
+    padding-left: 180px;
+    width: 100%;
+    height: 48vh;
+   
+}
+.description{
+    padding-left: 490px;
+    padding-top: 50px;
+
+}
+.description a{
+    background-color: chocolate;
+    border-radius: 30px;
+    height: 30vh;
+
+}
+.pro h2{
+    padding-left: 5px;
+}
+
+#lapname{
+    font-size: 40px;
+}
+#offer{
+    font-size: 32px;
+}
+small{
+    font-size: 17px;
+}
+.design{
+    background-color: black;
+    color: white;
+    height: 30vh;
+    margin: 0;
+    margin-top: 15px;
+    padding-left: 90px;
+    font-size: 20px; 
+    text-align: center;   
+}
+#footer h3{
+padding-top: 150px;
+}
