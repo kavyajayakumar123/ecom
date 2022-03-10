@@ -192,3 +192,50 @@ function Profile() {
   )
 }
 export default Profile;
+
+
+
+
+
+
+
+
+
+import { useState } from "react";
+
+function Card() {
+ const [card, setCard] = useState([])
+  useEffect(() => {
+    axios.get("https://fakestoreapi.com/products").then((res) => {
+      console.log(res.data);
+    })
+  }, [])
+
+  
+  return (
+    <>
+      <div className="product">
+        <div className="pro">
+          <h2> All Products</h2>
+          <div className="card">
+            {
+              card.map((e) => (
+                <div onClick={() => { Click(e) }} className="details">
+                  <a href="/prodetails"> <img src={e.img} /></a>
+                  <h5>{e.name}</h5>
+                  <h6>{e.price}</h6>
+
+
+                </div>
+              ))
+            }
+          </div>
+        </div>
+        <div />
+      </div>
+      <div />
+
+    </>
+  )
+}
+export default Card;  
